@@ -169,5 +169,85 @@ font-size: 32px;
 font-weight: 700;
 margin-top: 24px;
 }
+.video-heading{
+
+    color: #0B0223;
+font-size: 48px;
+font-weight: 700;
+text-align: center;
+}
+.video-style{
+    background-image: linear-gradient(to bottom, #F948B2 0%, #8758F1 100%);
+    color: transparent;
+    -webkit-background-clip: text;
+    font-size: 48px;
+    font-weight: 700;
+    
+}
+.video-text{
+    color: #534C64;
+font-family: Work Sans;
+font-size: 18px;
+font-weight: 400;
+margin-top: 0px;
+text-align: center;
+margin-bottom: 50px;
+
+
+}
+.cards{
+    width: 1440px;margin: 0 auto;
+    display: flex;
+    gap: 24px;
+
+}
+.card-text{
+    width: 342px;
+    color: #534C64;
+font-size: 20px;
+font-weight: 500;
+transition: color 0.15s, background-color 0.15s;
+
+}
+.card-text:hover{
+    color: white;
+    background-color: black;
+}
+.card-img:hover{
+    border: 5px solid rgb(107, 44, 44);
+    
+}
+.card-img{
+    cursor: pointer;
+    transition: border 0.15s;
+}
+.video-list-style{
+    list-style: none;
+}
+.fa-solid {
+    color: red;
+    font-size: 30px;
+    text-align: center;
+}
+.card{
+
+    position: relative;
+}
+.inner-div{
+
+    position: absolute;
+    top: 30%;
+    right: 120px;
+    gap: 5px;
+}
+.inner-div-p{
+    color: #FF42A5;
+    text-align: center;
+
+font-size: 20px;
+
+font-weight: 600;
+
+}
 
 
