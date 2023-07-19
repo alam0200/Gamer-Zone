@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Lato&family=Open+Sans:wght@400;700;800&family=Poppins:wght@400;500;600;700&family=Work+Sans:wght@700;800&display=swap');
+*{
+font-family: 'Work Sans', sans-serif;
+}
+
+*{
+    box-sizing: border-box;
+}
+/* header section */
+.logo-div{
+    display: flex;
+    align-items: center;
+   
+}
+
+
+.logo-div img{
+    width: 86.041px;
+    height: 50px;
+    margin-right: 20px;
+    width: 150px;
+}
+.logo-div h2{
+    font-size: 45px;
+    font-weight: 700;
+}
+.text-style{
+    color: #FF42A5;
+}
+.Header-main{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1440px;
+    margin: 0 auto;
+}
+.text li{
+    list-style: none;
+
+}
+.header-text{
+    display: flex;
+    gap:30px
+    
+    
+}
+.header-class{
+    color: #3C354F;
+font-size: 18px;
+font-weight: 500;
+padding: 10px;
+border-radius: 8px;
+background: rgba(11, 2, 35, 0.10);
+}
+.tiktok{
+    color: rgb(65, 14, 14);
+    margin-right: 5px;
+    margin-left: 5px;
+}
+.youtube{
+    color: red;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+.banner-container{
+    width: 1440px;
+    margin: 50px auto 0;
+    background: #FFF;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.text-banner{
+    width: 50%;
+    
+}
+.text-img{
+    width: 50%;
+}
+.text-banner-heading{
+    color: #0B0223;
+font-size: 48px;
+font-weight: 600;
+margin-top: 10px;
+margin-bottom: 10px;
+}
+.text-banner-style{
+font-size: 70px;
+font-weight: 600;
+background-image: linear-gradient(to bottom, #F948B2 0%, #8758F1 100%);
+color: transparent;
+-webkit-background-clip: text;
+margin-top: 10px;
+margin-bottom: 10px;
+}
+.download{
+    color: red;
+    margin-right: 3px;
+}
+.downloadd{
+    color: rgb(59, 55, 55);
+    margin-right: 3px;
+}
+.downloaddd{
+    color: red;
+    margin-right: 3px;
+}
+.banner-p-text{
+    color: #534C64;
+font-size: 20px;
+font-weight: 500;
+
+}
+.banner-btn1{
+padding: 21px 40px;
+border-radius: 48px;
+background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+border: none;
+color: white;
+margin-right: 15px;
+
+}
+.banner-btn2{
+
+    padding: 21px 40px;
+border-radius: 48px;
+border: none;
+color: white;
+margin-right: 15px;
+background: #4EC5F7;
+margin-top: 20px;
+
+}
+.gamer-container{
+    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
+    width: 1440px;
+    margin: 50px auto 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.gamer-img{
+    margin-right: 50px;
+}
+.gammer-text-style{
+    ont-size: 48px;
+font-weight: 700;
+background-image: linear-gradient(to bottom, #F948B2 0%, #8758F1 100%);
+color: transparent;
+-webkit-background-clip: text;
+margin-top: 10px;
+margin-bottom: 10px;
+}
+.gammer-p-text{
+    color: #534C64;
+font-size: 18px;
+font-weight: 400;
+
+}
+.gammer-small{
+    color: #534C64;
+font-size: 24px;
+font-weight: 500;
+}
+.gammer-small-o{
+    color: #534C64;
+font-size: 32px;
+font-weight: 700;
+margin-top: 24px;
+}
+
+
